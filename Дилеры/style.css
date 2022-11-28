@@ -1,4 +1,4 @@
-body {
+body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,7 +31,7 @@ body {
 h1{position: absolute;
     width: 172px;
     height: 48px;
-    left: 120px;
+    left: 220px;
     top: 139px;
     
     font-family: 'Inter';
@@ -53,3 +53,29 @@ h1{position: absolute;
     .city a{
         text-decoration: none;
     }
+    
+    .city-2{
+        box-sizing: border-box;
+        position: absolute;
+        width: 353px;
+        height: 77px;
+        left: 220px;
+        top: 298px;
+    
+        mix-blend-mode: normal;
+        border: 1px solid #717070;
+    
+        }
+        .city-2 a{
+            text-decoration: none;
+        }
+        .city-3{box-sizing: border-box;
+    
+            position: absolute;
+            width: 353px;
+            height: 77px;
+            left: 220px;
+            top: 416px;
+            
+            mix-blend-mode: normal;
+            border: 1px solid #717070;}
