@@ -45,7 +45,7 @@ h1{position: absolute;
     position: absolute;
     width: 353px;
     height: 50px;
-    left: 120px;
+    left: 400px;
     top: 220px;
     mix-blend-mode: normal;
     border: 1px solid #717070;
@@ -59,7 +59,7 @@ h1{position: absolute;
         position: absolute;
         width: 353px;
         height: 77px;
-        left: 220px;
+        left: 400px;
         top: 298px;
     
         mix-blend-mode: normal;
@@ -74,7 +74,7 @@ h1{position: absolute;
             position: absolute;
             width: 353px;
             height: 77px;
-            left: 220px;
+            left: 400px;
             top: 416px;
             
             mix-blend-mode: normal;
@@ -89,4 +89,26 @@ h1{position: absolute;
          background: url(image.png);
     
     }
-    
+    .footer{
+        position: absolute;
+        width: 169.88px;
+        height: 19px;
+        left: 350px;
+        top: 794px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #000000;
+        
+        
+        }
+        .footer a {
+            text-decoration: none;
+        }
+        
+    .footer a {
+        text-decoration: none;
