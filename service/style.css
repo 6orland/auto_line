@@ -29,3 +29,26 @@
 .img-map {
     margin-top: 30px;
 }
+
+.service h1 {
+    padding-right: 63px;
+}
+
+.service__spare a {
+    color: rgba(60, 150, 118, 1);
+}
+
+.spare {
+    position: relative;
+}
+
+.spare__cart {
+    position: absolute;
+    top: 368px;
+    background-color: rgba(60, 150, 118, 1);
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
