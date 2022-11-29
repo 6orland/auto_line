@@ -1,0 +1,50 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.header {
+    margin-bottom: 28px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.nav-list h4 {
+    margin-top: 50px;
+    margin-right: 70px;  
+    color: black;  
+}
+
+.img-cart {
+    margin-top: 37px;
+    margin-right: 70px; 
+}
+
+.img-map {
+    margin-top: 30px;
+}
+
+.city__cities a {
+    list-style-type: none;
+    text-decoration: none;
+    color:rgba(74, 74, 74, 1);
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
