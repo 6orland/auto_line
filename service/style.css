@@ -11,6 +11,17 @@
     justify-content: space-between;
 }
 
+button {
+    border: 0;
+    width: 177px;
+    height: 26px;
+    border-radius: 3px;
+}
+
+.header {
+    margin-bottom: 28px;
+}
+
 .header a {
     text-decoration: none;
 }
@@ -30,6 +41,10 @@
     margin-top: 30px;
 }
 
+.service {
+    margin-bottom: 63px;
+}
+
 .service h1 {
     padding-right: 63px;
 }
@@ -39,6 +54,7 @@
 }
 
 .spare {
+    margin-bottom: 36px;
     position: relative;
 }
 
