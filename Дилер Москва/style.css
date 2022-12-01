@@ -1,0 +1,29 @@
+body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.nav-list h4 {
+    margin-top: 50px;
+    margin-right: 80px;  
+    color: black;  
