@@ -27,3 +27,40 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     margin-top: 50px;
     margin-right: 80px;  
     color: black;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        position: absolute;
+        width: 169.88px;
+        height: 19px;
+        left: 350px;
+        top: 794px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #000000;
+        
+        
+        }
+        .footer a {
+            text-decoration: none;
+        }
+    .footer a {
+        text-decoration: none;
