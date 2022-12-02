@@ -34,10 +34,24 @@
     margin-top: 30px;
 }
 
+.city h1 {
+    margin-left: 286px;
+}
+
+.city__cities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid rgba(113, 112, 112, 1);
+    width: 609px;
+    height: 116px;
+    margin-left: 286px;    
+}
+
 .city__cities a {
     list-style-type: none;
     text-decoration: none;
-    color:rgba(74, 74, 74, 1);
+    color:rgba(74, 74, 74, 1);   
 }
 
 li {
