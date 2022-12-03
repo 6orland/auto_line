@@ -1,72 +1,43 @@
 body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-}
-
-
-
-.d-flex {
-    display: flex;
-}
-
-.flex-sb {
-    justify-content: space-between;
-}
-
-
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.header a {
-    text-decoration: none;
-}
-
-.nav-list h4 {
-    margin-top: 50px;
-    margin-right: 80px;  
-    color: black;  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer{
-        position: absolute;
-        width: 169.88px;
-        height: 19px;
-        left: 350px;
-        top: 794px;
-        
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        
-        color: #000000;
-        
-        
-        }
-        .footer a {
-            text-decoration: none;
-        }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .flex-sb {
+        justify-content: space-between;
+    }
+    
+    
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    
+    .header a {
+        text-decoration: none;
+    }
+    
+    .nav-list h4 {
+        margin-top: 50px;
+        margin-right: 80px;  
+        color: black;  
+    }
+    
+    .list-h5 {
+        color: black;
+    }
+    
     .footer a {
         text-decoration: none;
+    }
+    
+    .img-map {
+        margin-top: 30px;
+    }
