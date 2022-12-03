@@ -8,6 +8,17 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
 .d-flex {
     display: flex;
 }
+select{
+position: absolute;
+width: 353px;
+height: 50px;
+left: 400px;
+top: 240px;
+
+mix-blend-mode: normal;
+border: 1px solid #717070;
+
+}
 
 .flex-sb {
     justify-content: space-between;
