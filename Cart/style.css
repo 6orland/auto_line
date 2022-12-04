@@ -1,5 +1,3 @@
-body
-
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -11,13 +9,6 @@ body
 
 .flex-sb {
     justify-content: space-between;
-}
-
-button {
-    border: 0;
-    width: 177px;
-    height: 26px;
-    border-radius: 3px;
 }
 
 .header {
@@ -43,27 +34,28 @@ button {
     margin-top: 30px;
 }
 
-.service {
-    margin-bottom: 63px;
+.city h1 {
+    margin-left: 286px;
 }
 
-.service h1 {
-    padding-right: 63px;
+.city__cities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid rgba(113, 112, 112, 1);
+    width: 609px;
+    height: 116px;
+    margin-left: 286px;    
 }
 
-.service__spare a {
-    color: rgba(60, 150, 118, 1);
+.city__cities a {
+    list-style-type: none;
+    text-decoration: none;
+    color:rgba(74, 74, 74, 1);   
 }
 
-.spare {
-    margin-bottom: 36px;
-    position: relative;
-}
-
-.spare__cart {
-    position: absolute;
-    top: 368px;
-    background-color: rgba(60, 150, 118, 1);
+li {
+    list-style-type: none;
 }
 
 .footer-list a {
