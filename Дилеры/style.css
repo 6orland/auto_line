@@ -13,10 +13,12 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     .flex-sb {
         justify-content: space-between;
     }
-    .section__left{
-        
-        width: 1140px;
+    .card__Nizhny-Novgorod{
         margin: 0 auto;
+        padding-left: 500px;
+        margin-top: -200px;
+        margin-bottom: 10px;
+        width: 100px;
     }
     
     .container {
