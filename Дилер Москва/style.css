@@ -23,17 +23,12 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
         width: 1140px;
         margin: 0 auto;
     }
-   
-    .street{
-        width: 1140px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        position: absolute;
-        width: 353px;
-        height: 77px;
-        left: 30px;
-        top: 298px;
-    }
+    .map_moscow
+        {
+            justify-content: space-between;}
+    
+    
+
     .header a {
         text-decoration: none;
     }
