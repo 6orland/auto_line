@@ -1,4 +1,6 @@
-body
+body {
+    font-family: 'Inter', sans-serif;
+}
 
 .container {
     width: 1140px;
