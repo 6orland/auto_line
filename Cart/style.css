@@ -15,13 +15,6 @@ body {
     justify-content: space-between;
 }
 
-button {
-    border: 0;
-    width: 177px;
-    height: 26px;
-    border-radius: 3px;
-}
-
 .header {
     margin-bottom: 28px;
 }
@@ -45,27 +38,24 @@ button {
     margin-top: 30px;
 }
 
-.service {
-    margin-bottom: 63px;
+.cart {
+    padding-left: 98px;
 }
 
-.service h1 {
-    padding-right: 63px;
+.cart__inside {
+    border: 2px solid rgba(113, 112, 112, 1);
+    width: 996px;
+    height: 62px;
+    padding-left: 11px;      
 }
 
-.service__spare a {
-    color: rgba(60, 150, 118, 1);
+.cart a {
+    list-style-type: none;    
+    color:rgba(0, 0, 0, 1);   
 }
 
-.spare {
-    margin-bottom: 36px;
-    position: relative;
-}
-
-.spare__cart {
-    position: absolute;
-    top: 368px;
-    background-color: rgba(60, 150, 118, 1);
+li {
+    list-style-type: none;
 }
 
 .footer-list a {
