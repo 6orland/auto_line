@@ -9,6 +9,14 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     .d-flex {
         display: flex;
     }
+    select{
+        margin-top: 20px;
+        padding-right: 400px;
+        width: 00px;
+    }
+    .diler{
+        margin-top: 40px;
+    }
     
     .flex-sb {
         justify-content: space-between;
