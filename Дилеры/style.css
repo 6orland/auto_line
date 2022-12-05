@@ -15,8 +15,26 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
         width: 00px;
     }
     .diler{
-        margin-top: 40px;
+        width: 1140px;
+        margin: 0 auto;
     }
+    .city-2{
+         
+        width: 1140px;
+        margin: 0 auto;
+        border: 1px solid #717070;
+        
+    }
+    .city-3{
+        width: 1140px;
+        margin: 0 auto; 
+    }
+    
+       
+   
+
+
+    
     
     .flex-sb {
         justify-content: space-between;
@@ -24,7 +42,7 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     .card__Nizhny-Novgorod{
         margin: 0 auto;
         padding-left: 500px;
-        margin-top: -200px;
+        margin-top: -260px;
         margin-bottom: 10px;
         width: 100px;
     }
