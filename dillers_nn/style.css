@@ -1,6 +1,8 @@
 body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+}
+
     ul {
         margin: 0;
         padding: 0;
@@ -12,28 +14,44 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
     select{
         margin-top: 20px;
         padding-right: 400px;
-        width: 00px;
+        width: 100px;
     }
     .diler{
         width: 1140px;
         margin: 0 auto;
     }
-    .city-2{
-         
-        width: 1140px;
-        margin: 0 auto;
-        border: 1px solid #717070;
+
+    .city {
+
         
     }
+
+    .city-2{
+        width: 353px;
+        height: 77px;
+        mix-blend-mode: normal;
+        border: 1px solid #717070;
+        margin-left: 100px;
+        margin-top: 41px;
+    }
     .city-3{
-        width: 1140px;
-        margin: 0 auto; 
+        width: 353px;
+        height: 77px;
+        mix-blend-mode: normal;
+        border: 1px solid #717070;
+        margin-left: 100px;
+        margin-top: 41px;
     }
     
        
    
-    select{width: 1px;
-        padding-right: 130px;  
+    select {
+        width: 353px;
+        height: 50px;
+        mix-blend-mode: normal;
+        border: 1px solid #717070;
+        margin-left: 15px;
+    
     }
        
 
