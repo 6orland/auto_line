@@ -29,22 +29,21 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
         width: 1140px;
         margin: 0 auto; 
     }
-    
-       
-   
     select{width: 1px;
         padding-right: 130px;  
     }
        
+   
+
 
     
     
     .flex-sb {
         justify-content: space-between;
     }
-    .card__Nizhny-Novgorod{
+    .card__moscow{
         margin: 0 auto;
-        padding-left: 350px;
+        padding-left: 500px;
         margin-top: -260px;
         margin-bottom: 10px;
         width: 100px;
@@ -54,14 +53,17 @@ body {background: url('peach.gif') rgba(217, 217, 217, 1) repeat-x 50% fixed;
         width: 1140px;
         margin: 0 auto;
     }
-
+    .map_moscow
+        {
+            justify-content: space-between;}
+    
     
 
     .header a {
         text-decoration: none;
     }
     
-    .nav-list h4 {
+    .list-h4 {
         margin-top: 50px;
         margin-right: 80px;  
         color: black;  

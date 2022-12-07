@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background: rgba(255, 255, 255,);
 }
 
 ul {
@@ -29,10 +30,15 @@ ul {
     text-decoration: none;
 }
 
-.nav-list h4 {
+.nav-list {
     margin-top: 50px;
     margin-right: 80px;  
     color: black;  
+}
+
+.list-h4 {
+    color: black;
+    margin-right: 80px;  
 }
 
 .list-h5 {
@@ -61,5 +67,67 @@ ul {
 }
 
 .feedback-right {
-    display: block;
+    margin-left: 240px;
+}
+
+.feedback-right-h1 {
+    margin-top: 65px;
+}
+
+.f-r-input {
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    border: 1px solid #717070;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 600px;
+    height: 40px;
+}
+
+.family {
+    margin-top: 20px;
+
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.patronymic {
+    margin-top: 20px;
+}
+
+.tel {
+    margin-top: 20px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
+.txt {
+    margin-top: 20px;
+    height: 160px;
+}
+
+.feedback-right-btn {
+    width: 287px;
+    height: 66px;
+    background-color: #3C9676;
+
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-txt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.service {
+    margin-top: -15px;
 }
