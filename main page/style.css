@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.list-h4 {
+    margin-top: 50px;
+    margin-right: 80px;  
+    color: black;  
+}
+
+.list-h5 {
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.img-map {
+    margin-top: 30px;
+}
+
