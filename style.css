@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 ul {
@@ -16,6 +16,10 @@ ul {
     justify-content: space-between;
 }
 
+.img-cart {
+    margin-top: 37px;
+    margin-right: 70px; 
+}
 
 .container {
     width: 1140px;
@@ -28,12 +32,33 @@ ul {
 
 .list-h4 {
     margin-top: 50px;
-    margin-right: 80px;  
+    margin-right: 70px;  
     color: black;  
+}
+
+.section-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.info-img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 500px;
+    height: 285px;
 }
 
 .list-h5 {
     color: black;
+}
+
+.footer {
+    margin-top: 100px;
 }
 
 .footer a {
@@ -44,3 +69,6 @@ ul {
     margin-top: 30px;
 }
 
+.service {
+    margin-top: -20px;
+}

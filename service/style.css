@@ -72,3 +72,7 @@ button {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
 }
+
+.service {
+    margin-top: -20px;
+}
