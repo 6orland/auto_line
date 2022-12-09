@@ -1,13 +1,18 @@
+<<<<<<< HEAD
 body {
+=======
+body {background: url('peach.gif') rgba(255, 255б 255) repeat-x 50% fixed;
+>>>>>>> 2d9c7adf8786c34d97c10952a7e7b9e59a4b35fa
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-    ul {
-        margin: 0;
-        padding: 0;
-    }
+ul {
+margin: 0;
+padding: 0;
+}
     
+<<<<<<< HEAD
     .d-flex {
         display: flex;
     }
@@ -52,10 +57,89 @@ body {
         mix-blend-mode: normal;
         border: 1px solid #717070;
         margin-left: -25px;
-    
-    }
-       
+=======
+.d-flex {
+    display: flex;
+}
 
+.flex-sb {
+    justify-content: space-between;
+}
+
+.diler {
+    width: 1140px;
+    margin-top: 50px;
+    margin-left: 85px;
+
+}
+
+.city {
+    width: 353px;
+    height: 77px;
+    mix-blend-mode: normal;
+    border: 1px solid #717070;
+    margin-left: 100px;
+}
+
+.city-2 {
+    width: 353px;
+    height: 77px;
+    mix-blend-mode: normal;
+    border: 1px solid #717070;
+    margin-left: 85px;
+    margin-top: 41px;
+}
+
+.city-3 {
+    width: 353px;
+    height: 77px;
+    mix-blend-mode: normal;
+    border: 1px solid #717070;
+    margin-left: 85px;
+    margin-top: 41px;
+}
+
+.city-p{
+    margin-left: 20px;
+}
+    
+.card__Nizhny-Novgorod {
+    margin: 0 auto;
+    padding-left: 350px;
+    margin-top: -260px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+    
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+    
+.list-h4 {
+    margin-top: 50px;
+    margin-right: 80px;  
+    color: black;  
+}
+   
+.list-h5 {
+    color: black;
+}
+>>>>>>> 2d9c7adf8786c34d97c10952a7e7b9e59a4b35fa
+    
+.footer a {
+    text-decoration: none;
+}
+    
+.img-map {
+    margin-top: 30px;
+}
+
+<<<<<<< HEAD
     
     
     .flex-sb {
@@ -97,3 +181,8 @@ body {
     .img-map {
         margin-top: 30px;
     }
+=======
+.service {
+    margin-top: -20px;
+}
+>>>>>>> 2d9c7adf8786c34d97c10952a7e7b9e59a4b35fa
