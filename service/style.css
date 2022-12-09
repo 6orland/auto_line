@@ -20,10 +20,11 @@ button {
     width: 177px;
     height: 26px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .header {
-    margin-bottom: 28px;
+    margin-bottom: 52px;
 }
 
 .header a {
@@ -71,4 +72,8 @@ button {
 .footer-list a {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
+}
+
+.service {
+    margin-top: -20px;
 }
