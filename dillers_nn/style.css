@@ -50,14 +50,6 @@ body {
     margin-top: 41px;
 }
 
-.card__Nizhny-Novgorod {
-    margin: 0 auto;
-    padding-left: 350px;
-    margin-top: -260px;
-    margin-bottom: 10px;
-    width: 100px;
-}  
-
 .header__city {
     align-items: center;
 }
