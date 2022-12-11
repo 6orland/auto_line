@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
 }
 
-button {
+.button {
     border: 0;
     width: 177px;
     height: 26px;
