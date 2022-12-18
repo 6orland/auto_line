@@ -16,24 +16,28 @@ ul {
     justify-content: space-between;
 }
 
-.img-cart {
-    margin-top: 37px;
-    margin-right: 70px; 
-}
-
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 
-.header a {
-    text-decoration: none;
+.header {
+    align-items: center;
+    margin-bottom: 70px;
 }
 
-.list-h4 {
-    margin-top: 50px;
-    margin-right: 70px;  
-    color: black;  
+.header a {
+    text-decoration: none;
+    color: black;
+}
+    
+.nav-list {
+    width: 963px;
+    align-items: center;
+}
+
+.header__city {
+    align-items: center;
 }
 
 .section-info {
@@ -63,10 +67,6 @@ ul {
 
 .footer a {
     text-decoration: none;
-}
-
-.img-map {
-    margin-top: 30px;
 }
 
 .service {

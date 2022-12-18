@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <header class="header d-flex container flex-sb">
-        <img class="img-logo" src="images/logo.svg" alt="">
+        <img class="img-logo" src="images/logo.svg" alt="">        
         <nav class="nav-list d-flex flex-sb">
             <a class="list-h4" href="index.html">О НАС</a>
             <a class="list-h4" href="service.html">СЕРВИС И ЗАПЧАСТИ</a>
@@ -24,23 +27,39 @@
                 <a class="list-h4" href="city.html">ВЫБРАТЬ ГОРОД</a>
             </div>
         </nav>
+        <div class="nav-list-768">
+            <img src="images/menu.jpg" alt="">
+            <div class="nav-list-768__menu">
+                <ul>
+                    <li><a class="list-h4" href="index.html">О НАС</a></li>
+                    <li><a class="list-h4" href="service.html">СЕРВИС И ЗАПЧАСТИ</a></li>
+                    <li><a class="list-h4" href="city.html">ДИЛЕРЫ</a></li>
+                    <li><a class="list-h4" href="feedback.html">КОНТАКТЫ</a></li>
+                    <li><a class="img-cart" href="cart.html">КОРЗИНА</a></li>
+                    <li><a class="list-h4" href="city.html">ВЫБРАТЬ ГОРОД</a></li>                    
+                </ul>  
+            </div>           
+        </div>
     </header>
+
     <section class="service container d-flex">
         <div class="service__spare">
             <h1>СЕРВИС И ЗАПЧАСТИ</h1>
-            <p>Сервисное обслуживание в гарантийный<br>и постгарантийный период выполняется<br>на базе дилерских центров TECHNO</p>
+            <p>Сервисное обслуживание в гарантийный<br>и постгарантийный период выполняется<br>на базе дилерских центров
+                TECHNO</p>
             <a href="city.html">ВЫБРАТЬ ДИЛЕРА</a>
-        </div>        
+        </div>
         <img src="images/repair.svg" alt="">
-        <img src="images/car-repair.png" alt="">
+        <img class="service__car" src="images/car-repair.png" alt="">
     </section>
+
     <section class="spare container">
         <h2>КАТАЛОГ ЗАПЧАСТЕЙ TECHNO</h2>
         <div class="d-flex flex-sb">
             <div>
                 <img src="images/oil.jpg" alt="">
                 <p>Масло 5 л<br>Цена: 15 500 Р</p>
-                <button class="spare__cart" >в корзину</button>
+                <button class="spare__cart">в корзину</button>
             </div>
             <div>
                 <img src="images/candles.png" alt="">
@@ -50,27 +69,56 @@
             <div>
                 <img src="images/radiator.png" alt="">
                 <p>Радиатор двигателя<br>Цена: 3 500 Р</p>
-                <button class="spare__cart" >в корзину</button>
+                <button class="spare__cart">в корзину</button>
             </div>
             <div>
                 <img src="images/non-freezing.png" alt="">
                 <p>Незамерзайка<br>Цена: 399 Р</p>
-                <button class="spare__cart">в корзину</button>        
+                <button class="spare__cart">в корзину</button>
             </div>
-        </div>        
+        </div>
     </section>
+
+    <section class="spare-768 container">
+        <h2>КАТАЛОГ ЗАПЧАСТЕЙ TECHNO</h2>
+        <div class="spare-768__content">
+            <div>
+                <img src="images/oil.jpg" alt="">
+                <p>Масло 5 л<br>Цена: 15 500 Р</p>
+                <button class="spare-768__cart">в корзину</button>
+            </div>
+            <div>
+                <img src="images/candles.png" alt="">
+                <p>Свечи зажигания<br>никелевые<br>Цена: 6 000 Р</p>
+                <button class="spare-768__cart">в корзину</button>
+            </div>
+            <div>
+                <img src="images/radiator.png" alt="">
+                <p>Радиатор двигателя<br>Цена: 3 500 Р</p>
+                <button class="spare-768__cart">в корзину</button>
+            </div>
+            <div>
+                <img src="images/non-freezing.png" alt="">
+                <p>Незамерзайка<br>Цена: 399 Р</p>
+                <button class="spare-768__cart">в корзину</button>
+            </div>
+        </div>
+    </section>
+
     <section class="footer">
         <nav class="footer-list d-flex flex-sb container">
             <a class="list-h5" href="index.html">О НАС</a>
             <a class="list-h5" href="service.html">СЕРВИС И ЗАПЧАСТИ</a>
             <a class="list-h5" href="city.html">ДИЛЕРЫ</a>
-            <a class="list-h5" href="feedback.html">КОНТАКТЫ</a>  
+            <a class="list-h5" href="feedback.html">КОНТАКТЫ</a>
             <div class="service">
-                <h5 class="list-h5">КЛИЕНТСКАЯ СЛУЖБА TECHNO</h5>     
-                <h2 class="list-h3">8 800 000 000</h2> 
-                <p class="list-p">Звонок по России бесплатный</p> 
-            </div>  
+                <h5 class="list-h5">КЛИЕНТСКАЯ СЛУЖБА TECHNO</h5>
+                <h2 class="list-h3">8 800 000 000</h2>
+                <p class="list-p">Звонок по России бесплатный</p>
+            </div>
         </nav>
     </section>
+
 </body>
+
 </html>
