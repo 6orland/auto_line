@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1525px) {
+@media screen and (min-width: 769px) {
 
     body {
         font-family: 'Inter', sans-serif;
@@ -93,7 +93,7 @@
     }
 
     .container {
-        width: 768px;
+        width: 600px;
         margin: 0 auto;
     }
 
@@ -142,7 +142,7 @@
         padding-bottom: 10px;
     }
 
-    .nav-list-768:hover .nav-list-768__menu {
+    .nav-list-768:hover .nav-list-768__menu{
         display: block;
     }
 
